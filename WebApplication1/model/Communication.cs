@@ -1,4 +1,6 @@
-namespace WebApplication1.Controllers
+using System.ComponentModel.DataAnnotations;
+
+namespace WebApplication1.Model
 {
     public class Communication
     {
@@ -8,8 +10,8 @@ namespace WebApplication1.Controllers
 
         public int reciever { get; set; }
 
-        public string message_content { get; set; }
-        
-        public dateTime sent_date {get; set; }
+        public string Message_content { get; set; }
+
+        public DateTime Sent_date { get; set; }
     }
 }
