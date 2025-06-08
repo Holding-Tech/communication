@@ -4,9 +4,11 @@ namespace WebApplication1.Model
 {
     public class Communication
     {
-        public int message_id { get; set; }
 
+        [Key]
         public int sender_id { get; set; }
+        public int message_id { get; set; }
+       
 
         public int reciever { get; set; }
 

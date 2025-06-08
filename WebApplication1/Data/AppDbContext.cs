@@ -12,7 +12,7 @@ namespace WebApplication1.Data
         {
         }
 
-     public DbSet<Communication> Communications { get; set; }
+             public DbSet<Communication> Communications { get; set; }
     }
 }
 
